@@ -9,12 +9,12 @@ import UIKit
 import Foundation
 
 class ViewController: UIViewController {
-    
+    //declaring labels
     @IBOutlet weak var textMPH: UILabel!
     @IBOutlet weak var textKPH: UILabel!
     @IBOutlet weak var textKNOTS: UILabel!
     @IBOutlet weak var textMIPH: UILabel!
-    
+    //connecting buttons to labels
     @IBAction func buttonMPH(_ sender: Any) {
         textMPH.text = "50"
     }
