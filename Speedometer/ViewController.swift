@@ -10,11 +10,6 @@ import Foundation
 
 class ViewController: UIViewController {
 
-    @IBAction func pageMPH(_ sender: Any) {
-        
-    }
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
     }
