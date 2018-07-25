@@ -6,6 +6,7 @@
 //  Copyright © 2018 Benjamin Wierzbanowski. All rights reserved.
 //
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
 
