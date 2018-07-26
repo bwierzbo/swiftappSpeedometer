@@ -28,6 +28,11 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                         <color key="textColor" red="0.0020097530459999998" green="1" blue="0.35878352699999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUR-4C-zAW">
                                         <rect key="frame" x="33" y="172" width="130" height="50"/>
@@ -114,6 +119,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="buttonKNOTS" destination="vxN-65-uAO" id="q0W-Yy-OkO"/>
+                        <outlet property="buttonKPH" destination="Krh-n2-Kjr" id="mdX-Lu-vBK"/>
+                        <outlet property="buttonMIPH" destination="hQX-po-ayw" id="0Em-Sq-1ma"/>
+                        <outlet property="buttonMPH" destination="BUR-4C-zAW" id="NF7-Zf-i40"/>
+                        <outlet property="mainTitle" destination="RFc-Ah-nUq" id="WQM-gj-b7R"/>
                         <outlet property="textKNOTS" destination="Afq-1m-5Px" id="Fas-9w-EvZ"/>
                         <outlet property="textKPH" destination="ZVO-Wb-3jS" id="tlu-nG-f6U"/>
                         <outlet property="textMIPH" destination="P8x-Gd-1Gn" id="uq2-rQ-Ljv"/>
